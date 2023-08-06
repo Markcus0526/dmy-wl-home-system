@@ -1,0 +1,104 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="header_title_fontsize">17sp</dimen>
+    <dimen name="date_fontsize">13sp</dimen>
+    
+    <dimen name="login_input_fontsize">11sp</dimen>
+    
+
+    <dimen name="main_tab_fontsize">12sp</dimen>
+    <dimen name="main_item_title_fontsize">12sp</dimen>
+    <dimen name="main_item_body_fontsize">13sp</dimen>
+    <dimen name="main_item_username_fontsize">11sp</dimen>
+    
+    <dimen name="navigate_title_fontsize">13sp</dimen>
+    <dimen name="navigate_subtitle_fontsize">16sp</dimen>
+    
+    
+    <dimen name="activity_type_title_fontsize">13sp</dimen>
+    <dimen name="activity_item_title_fontsize">13sp</dimen>
+    <dimen name="activity_item_body_fontsize">12sp</dimen>
+    
+    <dimen name="groupact_info_title_fontsize">15sp</dimen>
+    <dimen name="groupact_info_body_fontsize">13sp</dimen>
+    
+    <dimen name="singleact_info_title_fontsize">14sp</dimen>
+    <dimen name="singleact_info_body_fontsize">13sp</dimen>
+    
+    <dimen name="share_tab_fontsize">13sp</dimen>
+    <dimen name="share_item_title_fontsize">13sp</dimen>
+    <dimen name="share_item_body_fontsize">10sp</dimen>
+    <dimen name="share_item_date_weekday">13sp</dimen>
+    <dimen name="share_item_date_yearmonth">12sp</dimen>
+    <dimen name="share_item_date_day">26sp</dimen>
+    <dimen name="share_submit">12sp</dimen>
+    
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    
+    <dimen name="member_title_fontsize">16sp</dimen>
+    <dimen name="member_integral">14sp</dimen>
+    <dimen name="member_lastlogin">13sp</dimen>
+    <dimen name="member_item_fontsize">15sp</dimen>
+
+    <dimen name="exchange_data_fontsize">13sp</dimen>
+    
+    <dimen name="exchange_info_title_fontsize">14sp</dimen>
+    <dimen name="exchange_info_body_fontsize">13sp</dimen>
+    <dimen name="exchange_image_header_fontsize">15sp</dimen>
+    
+
+    <dimen name="feedback_title_fontsize">13sp</dimen>
+    <dimen name="feedback_body_fontsize">11sp</dimen>
+    <dimen name="faq_tab_fontsize">13sp</dimen>
+    
+    
+    <dimen name="memberpage_title_fontsize">15sp</dimen>
+    <dimen name="memberpage_name_fontsize">16sp</dimen>
+    <dimen name="memberpage_body_fontsize">16sp</dimen>
+
+	
+	<dimen name="basket_item_title_fontsize">16sp</dimen>
+	<dimen name="basket_item_body_fontsize">15sp</dimen>
+	<dimen name="basket_item_delete_fontsize">17sp</dimen>
+	
+	
+	<dimen name="mycash_item_title_fontsize">14sp</dimen>
+	<dimen name="mycash_item_body_fontsize">13sp</dimen>
+	
+	<dimen name="mycart_item_title_fontsize">13sp</dimen>
+	<dimen name="mycart_item_body_fontsize">12sp</dimen>
+	<dimen name="mycart_item_del_fontsize">16sp</dimen>
+	
+	<dimen name="commondetail_item_title_fontsize">13sp</dimen>
+	<dimen name="commondetail_item_date_fontsize">11sp</dimen>
+	<dimen name="commondetail_item_body_fontsize">12sp</dimen>
+	
+	<dimen name="faq_item_title_fontsize">13sp</dimen>
+    <dimen name="faq_item_body_fontsize">11sp</dimen>
+	<dimen name="faqinfo_title_fontsize">16sp</dimen>
+	<dimen name="faqinfo_body_fontsize">12sp</dimen>
+	<dimen name="faqinfo_smallbody_fontsize">11sp</dimen>
+	
+	<dimen name="file_explorer_title_fontsize">12sp</dimen>
+	<dimen name="file_explorer_filename_fontsize">12sp</dimen>
+	
+	<dimen name="myfaq_add_body_fontsize">13sp</dimen>
+	<dimen name="myfaq_add_body_fontsize1">12sp</dimen>
+	
+    <dimen name="myphotoadd_body_fontsize">13sp</dimen>
+    <dimen name="myphotoinfo_title_fontsize">14sp</dimen>
+    <dimen name="myphotoinfo_body_fontsize">13sp</dimen>
+    
+    <dimen name="evaluate_body_fontsize">11sp</dimen>
+	
+    
+</resources>

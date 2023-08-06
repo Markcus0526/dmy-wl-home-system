@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="menu_item_clear_memory_cache">Clear memory cache</string>
+    <string name="menu_item_clear_disc_cache">Clear disc cache</string>
+    <string name="menu_item_pause_on_scroll">Pause on scroll</string>
+    <string name="menu_item_pause_on_fling">Pause on fling</string>
+     <string name="descr_image">Image</string>
+
+    <string name="app_name">卧龙家园</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">Main</string>
+    <string name="title_activity_member_info">MemberInfo</string>
+    <string name="title_activity_act">ActActivity</string>
+    <string name="title_activity_group_act">GroupActActivity</string>
+    <string name="wolongjiayuan">卧龙家园</string>
+    <string name="activity">活动</string>
+    <string name="share">分享</string>
+    <string name="faq">问答</string>
+    <string name="feedback">献策</string>
+    <string name="study">学习</string>
+    <string name="today">今天</string>
+    <string name="group_activity">活动展示</string>
+    <string name="single_activity">个人活动组织</string>
+    <string name="exchange">兑换</string>
+    <string name="eval_comma">评论: </string>
+    <string name="eval">评论</string>
+    <string name="weekday">星期日,星期一,星期二,星期三,星期四,星期五,星期六</string>
+    <string name="item_detail">[详细]</string>
+    <string name="good">赞</string>
+    <string name="bad">踩</string>
+
+    <string name="login_mainipaddr">IP地址(例：218.25.54.29:8080)</string>
+    <string name="login_membername">会员账号</string>
+    <string name="login_password">密码</string>
+    <string name="login_error_network">没有网络存取点</string>
+    <string name="login_error_password">用户ID及密码有错误</string>
+    
+    <string name="main_tab_suggest">推荐</string>
+    
+    <string name="share_type1">分类A</string>
+    <string name="share_type2">分类B</string>
+    <string name="share_type3">分类C</string>
+    <string name="share_submit">我要分享</string>
+    
+    <string name="exchange_type1">0-2000分</string>
+    <string name="exchange_type2">2001-8000分</string>
+    <string name="exchange_type3">8000分以上</string>
+    <string name="integral_comma">积分：</string>
+    <string name="title_activity_exchange">ExchangeActivity</string>
+    <string name="title_activity_exchange_item">ExchangeItemActivity</string>
+    
+    <string name="faq_submit">我要问答</string>
+    <string name="faq_type1">全都问题</string>
+    <string name="faq_type2">专业知识</string>
+    <string name="faq_type3">企业相关</string>
+    <string name="faq_type4">其他综合</string>
+    <string name="faq_item_updatedate">更新日期：  </string>
+    <string name="faq_item_integral">悬赏积分：  </string>
+    <string name="faq_item_answer">回答：  </string>
+    
+    <string name="myfaq_title">我的回答</string>
+    <string name="myfaq_submit">我要发布</string>
+    <string name="myfaq_item_readcount">游览：  </string>
+    <string name="myfaq_item_recentanswer">最新回答：  </string>
+    <string name="myfaq_item_answer">回答：  </string>
+    
+    <string name="myfaq_add_title">我的回答</string>
+    <string name="myfaq_add_submit">发布</string>
+    <string name="myfaq_add_item_chian">悬赏积分</string>
+    <string name="myfaq_add_item_show">描述</string>
+    <string name="myfaq_add_item_type">分类</string>
+    <string name="myfaq_add_item_type1">专业知识</string>
+    <string name="myfaq_add_item_type2">企业相关</string>
+    <string name="myfaq_add_item_type3">其他综合</string>
+    <string name="myfaq_add_maxintegral_label1">(输入该资料积分值，最大值为</string>
+    <string name="myfaq_add_maxintegral_label2">) </string>
+    
+    <string name="study_type1">全都问题</string>
+    <string name="study_type2">专业知识</string>
+    <string name="study_type3">企业相关</string>
+    <string name="study_type4">其他综合</string>
+    <string name="study_item_updatedate">更新日期：  </string>
+    <string name="study_item_readcount">游览：  </string>
+    <string name="study_item_answer">回答：  </string>
+    
+    <string name="feedback_submit">发表</string>
+    <string name="feedback_title">卧龙的明天，离不开你的建言献策</string>
+    <string name="feedback_body">马上献策，获取积分，被采纳认可的献策内容还能获得高额积分哦！</string>
+    <string name="feedback_itemtitle">标题</string>
+    <string name="feedback_itembody">内容</string>
+    <string name="feedback_filebtn">上传\n附件</string>
+    
+    <string name="navigate_title">我的频道</string>
+    <string name="navigate_title1">推荐</string>
+    <string name="navigate_title2">活动</string>
+    <string name="navigate_title3">分享</string>
+    <string name="navigate_title4">问答</string>
+    <string name="navigate_title5">学习</string>
+    <string name="navigate_title6">献策</string>
+    <string name="navigate_title7">兑换</string>
+    
+    <string name="memberpage_title">基本资料</string>
+    <string name="memberpage_loginname">登录名</string>
+    <string name="memberpage_othername">昵称</string>
+    <string name="memberpage_phonenum">联系方式</string>
+    <string name="memberpage_integral">积分</string>
+    <string name="memberpage_changepassword">个人密码修改</string>
+    
+
+    <string name="mycash_submit_btn_string">发布</string>
+    <string name="mycash_title">我的兑换</string>
+    <string name="mycash_item_title">My Cash</string>
+    <string name="mycash_item_cost_title">市场价格：</string>
+    <string name="mycash_item_integral_title">所需积分：</string>
+    <string name="mycash_item_state">兑换状态：</string>
+    
+    <string name="mycart_item_delete">删除</string>
+    <string name="mycart_commit_string">立即兑换</string>
+    <string name="mycart_selall_string">全选</string>
+    <string name="mycart_title">兑换</string>
+    <string name="mycart_item_cost_title">市场价格：</string>
+    <string name="mycart_item_integral_title">所需积分：</string>
+    <string name="mycart_success_title">兑换成功提交，请关注您个人中心的礼品兑换状态，如显示“已受理可领取”，则请到XXXX处领取礼品。</string>
+    <string name="mycart_success_return">返回列表页</string>
+    
+  
+    <string name="faq_info_title">问答</string>
+    <string name="faq_info_submit_btn_title">回答</string>
+    <string name="faq_info_submiter_title">提问人：</string>
+    <string name="faq_info_intergral_title">悬赏积分：</string>
+    <string name="faq_info_reply_title">回答：</string>
+    <string name="faq_info_category_title">所述分类：</string>
+    <string name="faq_info_reply_default_string">我来说两句...</string>
+    <string name="faq_info_all_reply_btn">...阅读全部回答</string>
+    <string name="faq_info_recent_string">最佳回答</string>
+    <string name="faq_answer_allanswer_string">全部回答</string>
+    
+    <string name="exchange_info_submit_string">我要兑换：</string>
+    <string name="exchange_info_integral_string">所需积分：</string>
+    <string name="exchange_info_secure_string">库存：</string>
+    <string name="exchange_info_total_string">累计兑换：</string>
+    <string name="exchange_info_property_string">产品参数</string>
+    <string name="exchange_info_picture_string">图文详情</string>
+    <string name="exchange_info_count_string">数量：</string>
+    <string name="exchange_info_wonmark_string">¥</string>
+    <string name="exchange_info_totalmark_string">份</string>
+    <string name="exchange_info_failsubmit_string">您已超量输入了个数</string>
+    
+
+    <string name="study_info_submiter_title">提问人：</string>
+    <string name="study_info_intergral_title">悬赏积分：</string>
+    <string name="study_info_reply_title">回答：</string>
+    <string name="study_info_category_title">所述分类：</string>
+    <string name="study_info_reply_default_string">我来说两句...</string>
+    <string name="study_info_all_reply_btn">...阅读全部回答</string>
+    <string name="study_info_recent_string">最佳回答</string>
+    
+    <string name="share_info_submiter_title">提问人：</string>
+    <string name="share_info_intergral_title">悬赏积分：</string>
+    <string name="share_info_reply_title">评论：</string>
+    <string name="share_info_category_title">所述分类：</string>
+    <string name="share_info_reply_default_string">我来说两句...</string>
+    <string name="share_info_all_reply_btn">...阅读全部评论</string>
+    <string name="share_info_recent_string">最佳评论</string>
+    
+    <string name="activity_header">活动</string>
+    <string name="activity_two_detail">　我来说两句...</string> 
+    <string name="activity_add">我要活动</string> 
+    <string name="activity_submit">发起活动</string>  
+    <string name="activity_name">活动主题</string>
+    <string name="activity_body">活动介绍</string>
+    <string name="activity_need">(非必须)</string>
+    
+    <string name="exchange_submit_title">我要兑换</string>
+
+    <string name="myphoto_title">我的照片</string>
+    <string name="myphoto_submit">我要发布</string>
+    <string name="myphoto_add_picture">上传\n图片</string>
+    
+    <string name="group_act_info_eval_string">评论</string>
+    
+    <string name="evaluate_title">评论</string>
+
+    <string name="setting_display_title">设置</string>
+    <string name="setting_black_mode_title1">上午模式</string>
+    <string name="setting_black_mode_title2">下午模式</string>
+    <string name="setting_black_mode_title3">黑夜模式</string>
+    <string name="setting_black_mode_title4">白天模式</string>
+    
+    
+    <string name="singleact_info_eval_title">我来说两句...</string>
+    <string name="singleact_info_showeval_title">... 阅读全部评论</string>
+    <string name="singleact_info_hoteval_title">热门评论</string>
+    
+    <string name="studyeval_title">全都评论</string>
+    <string name="studyeval_timeago">天前</string>
+    
+    <string name="password_change_title">个人密码修改</string>
+    <string name="password_change_old">当前密码</string>
+    <string name="password_change_new">新密码</string>
+    <string name="password_change_new1">确认新密码</string>
+    <string name="password_change_submit">保存</string>
+    
+    <string name="nickname_change_title">昵称</string>
+    <string name="phonenum_change_title">联系方式</string>
+    
+    <string name="password_change_olderror">您当前输入的密码有错误</string>
+    <string name="password_change_inputerror">密码有错误</string>
+    
+    <string name="share_add_type1">分类A</string>
+    <string name="share_add_type2">分类B</string>
+    <string name="share_add_type3">分类C</string>
+   
+    <string name="collection">收藏</string>
+    <string name="collection_title">收藏文章</string>
+    <string name="collection_submit">编辑</string>
+    
+    <string name="submitsuccess">成功</string>
+    <string name="submitfail">失败</string>
+    
+    <string name="add_comment_submitsuccess">成功</string>
+    <string name="add_comment_submitfail">失败</string>
+    <string name="add_comment_submitalreadydone">评论已完成</string>
+    
+    <string name="add_collection_submitsuccess">成功</string>
+    <string name="add_collection_submitfail">失败</string>
+    <string name="add_collection_submitalreadydone">已经存在了</string>
+    
+    <string name="myopinion_title">我的献策</string>
+    <string name="myopinion_type1">全都</string>
+    <string name="myopinion_type2">已采纳</string>
+    <string name="myopinion_type3">未采纳</string>
+    <string name="myopinion_item_date">献策日期：</string>
+    <string name="myopinion_item_integral">获得积分：</string>
+
+    <string name="msg_no_selected_item">没有选中的产品</string>
+    <string name="msg_success">操作成功</string>
+    <string name="msg_fail">操作失败</string>
+    
+    <string name="search_title"> 搜索</string>
+    <string name="search_text_hint"> 请输入关键字...</string>
+   
+    
+    <string name="confirm">确认</string>
+    <string name="no_title">无主题</string>
+    <string name="no_body">无内容</string>
+    <string name="no_integral">请输入正确积分</string>
+    <string name="big_integral">您已超量输入了积分</string>
+    <string name="no_picture">请输入您的照片</string>
+    <string name="invalid_picture">图片格式错误</string>
+    
+    
+    <string name="photoselect_paizhao">拍照</string>
+    <string name="photoselect_congshouji">从手机相册中选</string>
+    <string name="photoselect_cancel">取消</string>
+    
+</resources>

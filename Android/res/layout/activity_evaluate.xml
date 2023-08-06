@@ -1,0 +1,158 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_feedback"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_backcolor"
+    android:orientation="vertical"
+    tools:context=".Main" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:background="@drawable/main_header"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="10" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_evaluate_backbtn"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="25" >
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/navigate_topleft" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="45" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="70" >
+
+            <com.damy.Utils.AutoSizeTextView
+                android:id="@+id/AutoSizeTextView01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/evaluate_title"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/header_title_fontsize"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="20" >
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_evaluate_submit"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="50" >
+
+            <ImageView
+                android:id="@+id/ImageView02"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:src="@drawable/share_submit_btn" />
+
+            <com.damy.Utils.AutoSizeTextView
+                android:id="@+id/autoSizeTextView1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/feedback_submit"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/share_submit" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="10" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="390"
+        android:background="@color/color_white" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="100"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="40"
+                android:orientation="vertical" >
+
+                <com.damy.Utils.AutoSizeEditText
+                    android:id="@+id/txt_evaluate_body"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:ems="10"
+                    android:gravity="top|left"
+                    android:textSize="@dimen/evaluate_body_fontsize" >
+
+                    <requestFocus />
+                </com.damy.Utils.AutoSizeEditText>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="100"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5" >
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

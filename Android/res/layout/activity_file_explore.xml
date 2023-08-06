@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|left"
+            android:textColor="#FF0000FF"
+            android:textSize="@dimen/file_explorer_title_fontsize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/scroll_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="120"
+        android:orientation="vertical" >
+
+        <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/filelist_scrollview" android:background="#FFFFFFFF">
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" android:id="@+id/filelist_layout">
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp" android:layout_weight="1" android:background="#FF858585"
+            android:id="@+id/separator1">
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp" android:layout_weight="10" android:background="#FFFFFFFF"
+            android:focusableInTouchMode="false" android:id="@+id/filename_layout">
+
+        <EditText
+            android:id="@+id/txt_filename"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@null"
+            android:textColor="#FF000000"
+            android:textSize="@dimen/file_explorer_filename_fontsize" />
+
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp" android:background="#FF858585" android:layout_weight="1"
+            android:id="@+id/separator2">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="#FFFFFFFF"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="50" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="30"
+            android:gravity="center_vertical|center_horizontal" >
+
+            <Button
+                android:id="@+id/fileexplorer_btnok"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="O K"
+                android:textColor="@color/color_black"
+                android:textSize="@dimen/file_explorer_filename_fontsize" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="30"
+            android:gravity="center_vertical|center_horizontal" >
+
+            <Button
+                android:id="@+id/fileexplorer_btncancel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:textColor="@color/color_black"
+                android:textSize="@dimen/file_explorer_filename_fontsize" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

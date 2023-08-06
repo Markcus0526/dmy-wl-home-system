@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_myfaq_add"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_backcolor"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:background="@drawable/main_header"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="10" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_myfaq_add_backbtn"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="25"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/btn_back" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="45" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="70" >
+
+            <com.damy.Utils.AutoSizeTextView
+                android:id="@+id/AutoSizeTextViewAdd1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/myfaq_add_title"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/header_title_fontsize" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="20" >
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_myfaq_add_submitbtn"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="50" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/mycash_submit_btn" />
+
+            <com.damy.Utils.AutoSizeTextView
+                android:id="@+id/autoSizeTextView1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/feedback_submit"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/share_submit" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="10" >
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="390"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="10" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="200"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="60"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:orientation="vertical" >
+
+                    <com.damy.Utils.AutoSizeTextView
+                        android:id="@+id/textView1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/myfaq_add_submit"
+                        android:textColor="@color/color_black"
+                        android:textSize="@dimen/myfaq_add_body_fontsize"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:orientation="vertical" >
+
+                    <com.damy.Utils.AutoSizeEditText
+                        android:id="@+id/txt_myfaq_add_title"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:ems="10"
+                        android:textSize="@dimen/myfaq_add_body_fontsize" >
+
+                        <requestFocus />
+                    </com.damy.Utils.AutoSizeEditText>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="60"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:orientation="vertical" >
+
+                    <com.damy.Utils.AutoSizeTextView
+                        android:id="@+id/TextView03"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/myfaq_add_item_type"
+                        android:textColor="@color/color_black"
+                        android:textSize="@dimen/myfaq_add_body_fontsize"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20" >
+
+                    <LinearLayout
+                        android:id="@+id/ll_myfaq_add_type1"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="100"
+                        android:background="@drawable/faqadd_sel_btn" >
+
+                        <com.damy.Utils.AutoSizeTextView
+                            android:id="@+id/lab_myfaq_add_type1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/myfaq_add_item_type1"
+                            android:textColor="@color/color_white"
+                            android:textSize="@dimen/myfaq_add_body_fontsize" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="20" >
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_myfaq_add_type2"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="100" >
+
+                        <com.damy.Utils.AutoSizeTextView
+                            android:id="@+id/lab_myfaq_add_type2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:background="@drawable/faqadd_unsel_btn"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/myfaq_add_item_type2"
+                            android:textColor="@color/color_black"
+                            android:textSize="@dimen/myfaq_add_body_fontsize" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="20" >
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_myfaq_add_type3"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="100" >
+
+                        <com.damy.Utils.AutoSizeTextView
+                            android:id="@+id/lab_myfaq_add_type3"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:background="@drawable/faqadd_unsel_btn"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/myfaq_add_item_type3"
+                            android:textColor="@color/color_black"
+                            android:textSize="@dimen/myfaq_add_body_fontsize" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="60"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:orientation="horizontal" >
+
+                    <com.damy.Utils.AutoSizeTextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/myfaq_add_item_chian"
+                        android:textColor="@color/color_black"
+                        android:textSize="@dimen/myfaq_add_body_fontsize"
+                        android:textStyle="bold" />
+
+                    <com.damy.Utils.AutoSizeTextView
+                        android:id="@+id/AutoSizeTextView02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="left|center_vertical"
+                        android:text="  "
+                        android:textColor="@color/color_black"
+                        android:textSize="@dimen/myfaq_add_body_fontsize1"
+                        android:textStyle="bold" />
+
+                    <com.damy.Utils.AutoSizeTextView
+                        android:id="@+id/AutoSizeTextView01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/myfaq_add_maxintegral_label1"
+                        android:textColor="@color/faq_item_body"
+                        android:textSize="@dimen/myfaq_add_body_fontsize1"
+                        android:textStyle="bold" />
+
+                    <com.damy.Utils.AutoSizeTextView
+                        android:id="@+id/AutoSizeTextView03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="left|center_vertical"
+                        android:text=" "
+                        android:textColor="@color/color_black"
+                        android:textSize="@dimen/myfaq_add_body_fontsize1"
+                        android:textStyle="bold" />
+
+                    <com.damy.Utils.AutoSizeTextView
+                        android:id="@+id/lab_myfaq_add_maxintegral"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="left|center_vertical"
+                        android:text="  "
+                        android:textColor="@color/faq_item_body"
+                        android:textSize="@dimen/myfaq_add_body_fontsize1"
+                        android:textStyle="bold" />
+
+                    <com.damy.Utils.AutoSizeTextView
+                        android:id="@+id/AutoSizeTextView06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="left|center_vertical"
+                        android:text=" "
+                        android:textColor="@color/color_black"
+                        android:textSize="@dimen/myfaq_add_body_fontsize1"
+                        android:textStyle="bold" />
+
+                    <com.damy.Utils.AutoSizeTextView
+                        android:id="@+id/AutoSizeTextView05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/myfaq_add_maxintegral_label2"
+                        android:textColor="@color/faq_item_body"
+                        android:textSize="@dimen/myfaq_add_body_fontsize1"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:orientation="vertical" >
+
+                    <com.damy.Utils.AutoSizeEditText
+                        android:id="@+id/txt_myfaq_add_integral"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:textSize="@dimen/myfaq_add_body_fontsize" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="60"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:orientation="vertical" >
+
+                    <com.damy.Utils.AutoSizeTextView
+                        android:id="@+id/TextView02"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/myfaq_add_item_show"
+                        android:textColor="@color/color_black"
+                        android:textSize="@dimen/myfaq_add_body_fontsize"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:orientation="vertical" >
+
+                    <com.damy.Utils.AutoSizeEditText
+                        android:id="@+id/txt_myfaq_add_body"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:ems="10"
+                        android:textSize="@dimen/myfaq_add_body_fontsize" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="100"
+                android:orientation="vertical" >
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="10" >
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

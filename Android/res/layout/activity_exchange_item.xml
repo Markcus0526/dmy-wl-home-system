@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_exchange_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_white"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="3"
+        android:background="@drawable/exchange_item_fitheight"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="200"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_fitheight_20px"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="@color/exchange_item_line_color"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="10"
+                        android:gravity="left"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="1px"
+                            android:layout_height="fill_parent"
+                            android:background="@color/exchange_item_line_color"
+                            android:gravity="left"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="200"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/common_fitheight_15px"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/img_exchangeitem_image1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="150px" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/common_fitheight_15px"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="10"
+                        android:gravity="right"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="1px"
+                            android:layout_height="fill_parent"
+                            android:background="@color/exchange_item_line_color"
+                            android:gravity="right"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="@color/exchange_item_line_color"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/common_fitheight_15px"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <com.damy.Utils.AutoSizeTextView
+                            android:id="@+id/lab_exchangeitem_name1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:gravity="left|center_vertical"
+                            android:textColor="@color/color_black"
+                            android:textSize="@dimen/exchange_data_fontsize" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/common_fitheight_5px"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <com.damy.Utils.AutoSizeTextView
+                            android:id="@+id/autoSizeTextView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:gravity="left|center_vertical"
+                            android:text="¥"
+                            android:textColor="@color/exchange_market_color" />
+
+                        <com.damy.Utils.AutoSizeTextView
+                            android:id="@+id/lab_exchangeitem_price1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:gravity="left|center_vertical"
+                            android:textColor="@color/exchange_market_color"
+                            android:textSize="@dimen/exchange_data_fontsize" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/common_fitheight_5px"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <com.damy.Utils.AutoSizeTextView
+                            android:id="@+id/autoSizeTextView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/integral_comma"
+                            android:textColor="@color/exchange_integral_color"
+                            android:textSize="@dimen/exchange_data_fontsize" />
+
+                        <com.damy.Utils.AutoSizeTextView
+                            android:id="@+id/lab_exchangeitem_integral1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:gravity="left|center_vertical"
+                            android:textColor="@color/exchange_integral_color"
+                            android:textSize="@dimen/exchange_data_fontsize" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_exchange_item_seconditem"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="@color/exchange_item_line_color"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="10"
+                        android:gravity="left"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="1px"
+                            android:layout_height="fill_parent"
+                            android:background="@color/exchange_item_line_color"
+                            android:gravity="left"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="200"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/common_fitheight_15px"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/img_exchangeitem_image2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="150px" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/common_fitheight_15px"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="10"
+                        android:gravity="right"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="1px"
+                            android:layout_height="fill_parent"
+                            android:background="@color/exchange_item_line_color"
+                            android:gravity="right"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="@color/exchange_item_line_color"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/common_fitheight_15px"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <com.damy.Utils.AutoSizeTextView
+                            android:id="@+id/lab_exchangeitem_name2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:gravity="left|center_vertical"
+                            android:textColor="@color/color_black"
+                            android:textSize="@dimen/exchange_data_fontsize" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/common_fitheight_5px"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <com.damy.Utils.AutoSizeTextView
+                            android:id="@+id/AutoSizeTextView05"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:gravity="left|center_vertical"
+                            android:text="¥"
+                            android:textColor="@color/exchange_market_color" />
+
+                        <com.damy.Utils.AutoSizeTextView
+                            android:id="@+id/lab_exchangeitem_price2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:gravity="left|center_vertical"
+                            android:textColor="@color/exchange_market_color"
+                            android:textSize="@dimen/exchange_data_fontsize" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/common_fitheight_5px"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <com.damy.Utils.AutoSizeTextView
+                            android:id="@+id/AutoSizeTextView04"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/integral_comma"
+                            android:textColor="@color/exchange_integral_color"
+                            android:textSize="@dimen/exchange_data_fontsize" />
+
+                        <com.damy.Utils.AutoSizeTextView
+                            android:id="@+id/lab_exchangeitem_integral2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:gravity="left|center_vertical"
+                            android:textColor="@color/exchange_integral_color"
+                            android:textSize="@dimen/exchange_data_fontsize" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2" >
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="3"
+        android:background="@drawable/exchange_item_fitheight"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+</LinearLayout>

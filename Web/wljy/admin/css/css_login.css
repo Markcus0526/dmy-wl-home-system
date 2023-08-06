@@ -1,0 +1,47 @@
+﻿@charset "utf-8";
+@import "reset.css";
+/*globe*/
+html {
+	background: url(about:blank);
+}
+body { 
+	color:#666; 
+	font:12px/24px "微软雅黑",Arial;
+	padding:0;margin:0;
+}
+a {
+	color:#666;
+}
+a:hover {
+	color:#de0029;
+}
+
+div {list-style: none;}
+.big_postion{ font-size:12px; width:400px; height:50px; font-family:"微软雅黑"; color:#fff; position:absolute; top:268px; left:35px;}
+.main{background:url(../img/cms/index.png) scroll center center; height:800px; margin:0 auto}
+.bigbox{ width:660px; height:450px; margin:0 auto; position:relative;}
+.button{ width:210px; height:130px; right:0px; bottom:0; position:absolute}
+.login h1{color:#014da1; font-size:15px; font-family:"微软雅黑"; font-weight:bold;}
+.input{ width:185px; margin-top:25px;}
+.input li{ line-height:50px;height:50px;}
+.login .dloginbg
+{
+background:url(../img/cms/name.png) no-repeat #A2B5CA; height:21px; width:160px; border:none; font-size:12px; color:#014da1; font-family:"微软雅黑"; line-height:20px; padding-left: 25px;
+}
+.login li input.text1{height:21px; width:160px; border:none; font-size:12px; color:#014da1; font-family:"微软雅黑"; line-height:20px; float:none;}
+.login .dloginpwdbg
+{
+background:url(../img/cms/login.jpg) no-repeat #A2B5CA; height:21px; width:160px; border:none; font-size:12px; color:#014da1; font-family:"微软雅黑"; line-height:20px; padding-left: 25px;
+}
+.login li input.text2{height:21px; width:160px; border:none; font-size:12px; color:#014da1; font-family:"微软雅黑"; float:none;}
+.input li input{ float:left}
+.search{ width:506px; height:29px; float:right; margin-right:20px; margin-top:40px; display:inline;}
+.search li{ width:240px; height:29px; float:left; margin-right:3px; }
+.search li.date{ width:123px; height:29px;}
+.text_a{ background:url(../img/cms/text1.jpg) no-repeat center left; height:29px; width:96px; border:none;line-height:28px; font:12px/28px Arial; color:#FFF}
+.search li input{ float:left}
+.text_b{ background:url(../img/cms/text2.jpg) no-repeat center left; height:29px; border:none; width:159px; line-height:28px;font:12px/28px Arial; color:#FFF}
+.center{background:#f8f8f8; height:auto!important; min-height:500px;}
+.time{height:34px; background:url(../img/cms/shouye1_18.jpg); margin-top:1px; padding-left:22px;}
+.time span{ height:34px; line-height:34px;}
+.time span em{ padding:0 5px; color:#515151;  font:12px/24px "微软雅黑";}

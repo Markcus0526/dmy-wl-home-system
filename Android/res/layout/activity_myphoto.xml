@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_setting_display"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_backcolor"
+    android:orientation="vertical"
+    tools:context=".Main" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:background="@drawable/main_header"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="10" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_myphoto_backbtn"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="25" >
+
+            <ImageView
+                android:id="@+id/setting_display_backtbn"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/btn_back" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="45" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="70" >
+
+            <com.damy.Utils.AutoSizeTextView
+                android:id="@+id/AutoSizeTextView01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/myphoto_title"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/header_title_fontsize"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="20" >
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_myphoto_submitbtn"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="50" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/share_submit_btn" />
+
+            <com.damy.Utils.AutoSizeTextView
+                android:id="@+id/txt_subbtnname"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/myphoto_submit"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/share_submit"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="10" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="390"
+        android:background="@drawable/activity_back_img"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="300"
+            android:orientation="vertical" >
+
+            <GridView
+			    android:id="@+id/grid_myphoto_view"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:gravity="center"
+			    android:horizontalSpacing="4dip"
+			    android:numColumns="4"
+			    android:stretchMode="columnWidth"
+			    android:verticalSpacing="4dip"
+			    android:padding="4dip" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

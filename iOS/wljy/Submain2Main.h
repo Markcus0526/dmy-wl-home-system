@@ -1,0 +1,13 @@
+//
+//  Submain2Main.h
+//  wljy
+//
+//  Created by 111 on 14.01.17.
+//  Copyright (c) 2014 Hercules. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface Submain2Main : UIStoryboardSegue
+
+@end

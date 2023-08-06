@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="color_white">#ffffff</color>
+	<color name="color_black">#000000</color>
+	
+	<color name="common_backcolor">#F4F4F4</color>
+	
+	<color name="main_tab_selected">#A32323</color>
+	<color name="main_tab_text">#909090</color>
+	<color name="main_item_title_text">#595A79</color>
+	<color name="main_item_back">#F4F4F4</color>
+	<color name="main_item_username">#878787</color>
+	
+	<color name="navigate_title">#909090</color>
+	<color name="navigate_subtitle_sel">#B40003</color>
+	<color name="navigate_subtitle_unsel">#6F6F6F</color>
+	
+	
+	<color name="activity_item_body">#878787</color>
+	<color name="activity_item_line_color">#CDCDCD</color>
+	
+	<color name="share_item_body">#919191</color>
+	<color name="share_item_date">#555F8F</color>
+	
+	<color name="feedback_body">#919191</color>
+	
+	<color name="faq_item_body">#919191</color>
+	
+	<color name="exchange_market_color">#90100d</color>
+	<color name="exchange_integral_color">#A9AEB1</color>
+	<color name="exchange_item_line_color">#CDCDCD</color>
+	
+	<color name="mycart_item_del_color">#B40003</color>
+	<color name="mycart_line_color">#D8D8D8</color>
+	<color name="mycart_commit_color">#FA4F3B</color>
+	<color name="mycart_item_title">#919191</color>
+	<color name="mycart_item_body">#919191</color>
+	
+	
+	
+	<color name="memberpage_title">#333333</color>
+	<color name="memberpage_body">#6F6F6F</color>
+	
+	
+
+	<color name="mycash_item_title">#919191</color>
+	<color name="mycash_item_body">#919191</color>
+	<color name="mycash_item_line_color">#CDCDCD</color>
+
+	<color name="qa_item_submiter">#4d6299</color>
+	<color name="qa_ans_num">#ff0000</color>
+	<color name="qa_recent_image_color">#f3f3f3</color>
+	
+	<color name="setting_mode_title_color">#7e7e7e</color>
+	
+	<color name="singleact_showeval_color">#4D6299</color>
+	<color name="singleact_hoteval_color">#808080</color>
+	<color name="singleact_evalname_color">#3E3E3E</color>
+	<color name="singleact_evaldate_color">#919191</color>
+	<color name="singleact_evalcontent_color">#A9AEB1</color>
+
+	<color name="exchange_info_price_color">#90100D</color>
+	<color name="exchange_info_body1_color">#919191</color>
+	<color name="exchange_info_body2_color">#4A4A4A</color>
+	<color name="exchange_info_body3_color">#6A6A6A</color>
+	<color name="exchange_info_body4_color">#9E9E9E</color>
+	<color name="exchange_info_subback_color">#e8e8e8</color>
+	
+	<color name="exchange_image_line_color">#E1E1E1</color>
+
+	<color name="main_back_black">#303030</color>
+	<color name="main_back_white">#efedee</color>
+	<color name="main_back_white_header">#bb1a1f</color>
+	<color name="main_back_white_integral">#797778</color>
+	<color name="main_back_white_integral_val">#464646</color>
+	<color name="main_back_white_title">#2C2C2C</color>
+	<color name="main_back_white_collection_title">#494949</color>
+	<color name="main_back_white_back">#dadada</color>
+	
+	<color name="collection_header_back">#4C4C4C</color>
+	<color name="collection_body_back">#F4F4F4</color>
+	<color name="collection_type_color">#47557A</color>
+	
+	<color name="search_text_color">#000000</color>
+	<color name="search_texthint_color">#B1B1B1</color>
+	
+
+
+</resources>

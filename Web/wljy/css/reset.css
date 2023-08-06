@@ -1,0 +1,90 @@
+﻿html{*overflow:auto;_overflow-y:scroll;}
+body{cursor:default;-webkit-text-size-adjust:none;font-size:12px;font-family:Arial;background:#FFF;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{padding:0;margin:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,th,var{font-weight:normal;font-style:normal;}
+strong{font-style:normal;}
+ol,ul,li{list-style:none outside none;}
+caption{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:100%;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;} 
+a{outline:none;cursor:pointer;*outline:expression(this.hideFocus=true);text-decoration:none;}
+img,object{vertical-align:top;}
+
+button::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="file"] > input[type="button"]::-moz-focus-inner{border:none;padding:0;}
+.clear{zoom:1;}
+.clear:after{visibility:hidden;display:block;font-size:0;content:"1";clear:both;height:0;}
+.fle{float:left;_display:inline;}
+.fri{float:right;_display:inline;}
+.fmi{float:middle;_display:inline;}
+.forgetpassword {
+	border: none;
+	width: 120px;
+	height: 42px;
+	line-height: 42px;
+	color: #ffffff;
+	font-weight: bold;
+	margin-top: -10px;
+        margin-right: -480px;
+/*	cursor: pointer;*/
+}
+.mailcon {
+	background: url(../img/passbg.png) no-repeat;
+        width: 400px;
+        height: 350px;
+}
+.mailcon tr td {
+    padding-left: 20px; padding-top: 20px; vertical-align: middle;
+}
+.inputname{
+	background: #373737;/* url(../img/login_img01.jpg) no-repeat;*/
+	width: 200px;
+	padding: 7px 7px 7px 0px;
+	border: none;
+	height: 20px;
+	line-height: 17px;
+	overflow: hidden;
+	border: #373737 1px solid;
+	color: #7e97bd;
+	font-size: 14px;
+}
+.inputmail {
+	background: #373737;/* url(../img/login_img01.jpg) no-repeat;*/
+	width: 310px;
+	padding: 7px 7px 7px 0px;
+	border: none;
+	height: 20px;
+	line-height: 17px;
+	overflow: hidden;
+	border: #373737 1px solid;
+	color: #7e97bd;
+	font-size: 14px;
+}
+.mailbtn-back {
+	background: #303030;
+	color: #ffffff;
+	width: 94px;
+	height: 37px;
+	line-height: 33px;
+	overflow: hidden;
+	border: none;
+	font-size: 14px;
+	cursor: pointer;
+        vertical-align: top;
+        float: left;
+}
+.mailbtn-post {
+	background: #3972f3;
+	color: #ffffff;
+	width: 94px;
+	height: 37px;
+	line-height: 33px;
+	overflow: hidden;
+	border: none;
+	font-size: 14px;
+	cursor: pointer;
+        vertical-align: top;
+        float: right;
+}
